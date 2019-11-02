@@ -1,7 +1,5 @@
 import re, iocextract
 
-
-
 # Variables
 
 IPs = []

@@ -1,18 +1,19 @@
-from Modules.common import *
+import modules.common as common
+
 
 def main(inp, out):
 
     for line in inp.readlines():
 
-        for url in iocextract.extract_urls(line, refang=True):
+        for url in common.iocextract.extract_urls(line, refang=True):
 
-            if url not in URLs:
+            if url not in common.URLs:
 
-                URLs.append(url)
+                common.URLs.append(url)
                 print(url + ', ')
             else:
                 print(url + ' Already in List')
 
     out.write('#####URLS#####\n\n')
-    for item in URLs:
+    for item in common.URLs:
         out.write('"' + item + '", \n')
