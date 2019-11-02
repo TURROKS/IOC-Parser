@@ -14,6 +14,6 @@ def main(inp, out):
             else:
                 print(url + ' Already in List')
 
-    out.write('#####URLS#####\n\n')
+    out.write('\n#####URLS#####\n\n')
     for item in common.URLs:
         out.write('"' + item + '", \n')

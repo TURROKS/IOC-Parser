@@ -16,6 +16,6 @@ def main(inp, out):
         except AttributeError:
             pass
 
-    out.write('#####FILES#####\n\n')
+    out.write('\n#####FILES#####\n\n')
     for item in common.Files:
         out.write('"' + item + '", \n')

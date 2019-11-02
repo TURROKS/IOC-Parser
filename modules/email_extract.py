@@ -18,6 +18,6 @@ def main(inp, out):
         except AttributeError:
             pass
 
-    out.write('#####EMAILS#####\n\n')
+    out.write('\n#####EMAILS#####\n\n')
     for item in common.Emails:
         out.write('"' + item + '", \n')
