@@ -14,6 +14,6 @@ def main(inp, out):
             else:
                 print(hash + ' Already in List')
 
-    out.write('\n#####HASHES#####\n\n')
+    out.write('#####HASHES#####\n\n')
     for item in common.Hashes:
         out.write('"' + item + '", \n')

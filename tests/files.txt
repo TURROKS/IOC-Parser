@@ -1,0 +1,17 @@
+
+#####FILES#####
+
+"b.txt", 
+"cUpdateCheckers.bat", 
+"dUpdateCheckers.ps1", 
+"hUpdateCheckers.ps1", 
+"GoogleUpdateschecker.vbs", 
+"dupdatechecker.doc", 
+"dupdatechecker.exe", 
+"cUpdateCheckers.bat", 
+"dUpdateCheckers.ps1", 
+"hUpdateCheckers.ps1", 
+"googleupdateschecker.vbs", 
+"v7-anyportals.hta", 
+"dUpdateCheckers.ps1", 
+"hUpdateCheckers.ps1", 

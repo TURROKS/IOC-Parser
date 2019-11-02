@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="025d686f-3df7-4163-a4e5-5eeb738a432f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/merger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/email_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/email_extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/file_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/file_extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/hash_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/hash_extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/ip_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ip_extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/url_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/url_extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/output.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

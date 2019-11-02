@@ -13,6 +13,6 @@ def main(inp, out):
             else:
                 print(ip + ' Already in List')
 
-    out.write('\n#####IPs#####\n\n')
+    out.write('#####IPs#####\n\n')
     for item in common.IPs:
         out.write('"' + item + '", \n')
