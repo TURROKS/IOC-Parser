@@ -1,14 +1,14 @@
 import modules.common as common
+import re
 
 
+# function reads inp file, extracts email addresses using a regex string
 def main(inp, out):
 
     for line in inp.readlines():
 
         try:
-            mail = common.re.search(
-                "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$",
-                line)
+            mail = re.search(common.email_re, line)
             print(mail.group())
 
             if mail not in common.Emails:

@@ -1,11 +1,13 @@
 import modules.common as common
+import iocextract
 
 
+# function reads inp file, extracts URLs using a regex string
 def main(inp, out):
 
     for line in inp.readlines():
 
-        for url in common.iocextract.extract_urls(line, refang=True):
+        for url in iocextract.extract_urls(line, refang=True):
 
             if url not in common.URLs:
 
