@@ -43,6 +43,15 @@
 "http://ns2.dns-update.club", 
 "http://anyportals.com", 
 
+#####Domain#####
+
+"mumbai-m.site", 
+"dns-update.club", 
+"proxycheker.pro", 
+"hpserver.online", 
+"dns-update.club", 
+"anyportals.com", 
+
 #####EMAILS#####
 
 "mariro@test.ae", 
