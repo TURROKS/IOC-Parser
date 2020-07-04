@@ -66,6 +66,7 @@
 "dupdatechecker.doc", 
 "dupdatechecker.exe", 
 "cUpdateCheckers.bat", 
+"mario.net", 
 "dUpdateCheckers.ps1", 
 "hUpdateCheckers.ps1", 
 "googleupdateschecker.vbs", 
